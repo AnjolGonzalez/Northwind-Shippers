@@ -12,7 +12,7 @@ public class DataManager {
     public static String url = "jdbc:mysql://localhost:3306/northwind";
     public static String user = "root";
     public static String myPassword = System.getenv("MY_DB_PASSWORD");
-    public static String password = "Campeon2!";
+    public static String password = "password!";
     static String query = "SELECT * FROM Shippers";
     static String query2 = "INSERT INTO Shippers(CompanyName, Phone) VALUES (?,?)";
 
